@@ -1,7 +1,7 @@
-name: "🐞 Twitter bug"
-description: Report a reproducible legacy Twitter/X bug. (12.19.1-release.0)
-title: "bug(Twitter): "
-labels: ["bug", "twitter"]
+name: "🐞 X bug"
+description: Report a reproducible bug in Xenocord patches for X.
+title: "bug(X): "
+labels: ["bug", "x"]
 body:
   - type: markdown
     attributes:
@@ -24,16 +24,16 @@ body:
   - type: input
     id: app-version
     attributes:
-      label: Twitter/X version
-      description: Version of the patched app.
+      label: X app version
+      description: Version of the patched X app.
     validations:
       required: true
 
   - type: input
     id: patches-version
     attributes:
-      label: Piko patch version
-      description: Version of the Piko patch bundle.
+      label: Xenocord patch version
+      description: Version of the Xenocord patch bundle.
     validations:
       required: true
 
