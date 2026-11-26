@@ -1,4 +1,4 @@
-rootProject.name = "piko-twitter-patches"
+rootProject.name = "xenocord-x-patches"
 
 buildCache {
     local {

@@ -1,14 +1,14 @@
-group = "crimera"
+group = "app.xenocord"
 
 patches {
     about {
-        name = "Piko"
-        description = "Morphe patches focused on Twitter/X"
-        source = "git@github.com:crimera/piko.git"
-        author = "crimera"
-        contact = "na"
-        website = "https://github.com/crimera/piko"
-        license = "GNU General Public License v3.0"
+        name = "Xenocord"
+        description = "Morphe patches focused exclusively on X (formerly Twitter)"
+        source = "https://github.com/xxm-cmyk/XenoCord"
+        author = "Xenocord contributors"
+        contact = "https://github.com/xxm-cmyk/XenoCord/issues"
+        website = "https://github.com/xxm-cmyk/XenoCord"
+        license = "GNU General Public License v3.0 or later"
     }
 }
 

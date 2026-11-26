@@ -1,12 +1,12 @@
-name: "⭐ Twitter feature"
-description: Request a legacy Twitter/X feature. (12.19.1-release.0)
-title: "feature(Twitter): "
-labels: ["enhancement", "twitter"]
+name: "⭐ X feature"
+description: Request a feature for Xenocord's X patches.
+title: "feature(X): "
+labels: ["enhancement", "x"]
 body:
   - type: markdown
     attributes:
       value: |
-        Feature requests are accepted only for Instagram and Twitter.
+        Feature requests are accepted for X only.
         Search open and closed issues before posting. Keep the title prefix unchanged.
 
   - type: textarea
@@ -32,5 +32,5 @@ body:
       options:
         - label: I searched open and closed issues; this is not a duplicate.
           required: true
-        - label: This request is for Twitter.
+        - label: This request is for X.
           required: true

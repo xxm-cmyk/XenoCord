@@ -1,7 +1,7 @@
 name: Crowdin pull and merge
 on:
   schedule:
-    - cron: "0 */12 * * *" # every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -67,7 +67,6 @@ jobs:
         id: translations
         run: |
           git add -- \
-            ':(glob)patches/src/main/resources/addresources/values-*/instagram/strings.xml' \
             ':(glob)patches/src/main/resources/addresources/values-*/shared/strings.xml' \
             ':(glob)patches/src/main/resources/addresources/values-*/twitter/strings.xml'
           if git diff --cached --quiet; then

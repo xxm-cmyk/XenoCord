@@ -9,3 +9,8 @@ https://github.com/crimera/piko
 
 This NOTICE file must be preserved and retained in all distributions
 of the Source Code and any Derivative Works.
+
+Xenocord is a derivative work based on Piko Patches. The upstream project,
+its contributors, and the original attribution above are acknowledged.
+Xenocord-specific changes are maintained in:
+https://github.com/xxm-cmyk/XenoCord
